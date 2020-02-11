@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="Part 2 of Homwork 2 CNIT133">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part2</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+  <script src="../static/js/part2.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/hw2_part2.css">
+
+<script>
+  $(document).ready(function () {
+    $("#fade").click(function () {
+      // alert("Hello");
+    $("#textarea").fadeTo("slow", 0.15);
+    });
+  });
+</script>
+
+</head>
+
+
+
+
+<body>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">Home
+      page</button>
+
+    <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw2.html'; ">Homework 2
+      page
+    </button>
+
+    <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'part1.html'; ">Part 1
+    </button>
+    
+    <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'part3.html'; ">Part 3
+    </button>
+
+  </form>
+</nav>
+
+
+<div class="row">
+
+  <div class="col-3">
+  </div>
+
+  <div class="col-6" id="middle">
+
+  <form name="myform">
+    <h3>Please enter numbers:</h3>
+    <h6>
+      Enter all three numbers then click on the button  with the name of the operation you are interseted at. 
+      Reset to put new numbers and execute new operation.
+    
+    </h6>
+    <table>
+      <tr>
+        <td>First Number:</td>
+        <td><input type="text" id="num1" size="10"></td>
+      </tr>
+      <tr>
+        <td>Second Number:</td>
+        <td><input type="text" id="num2" size="10"></td>
+      </tr>
+      <tr>
+        <td>Third Number:</td>
+        <td><input type="text" id="num3" size="10"></td>
+      </tr>
+  
+    </table>
+  
+    <br>
+    <h3>Get Result: </h3>
+    <input type="button" id="sum" onclick="return getSum()" value="Sum" >
+    <input type="button" id="average" onclick="getAverage()" value="Average">
+    <input type="button" id="product" onclick="getProduct()" value="Product">
+    <input type="button" id="smallest" onclick="getSmallest()" value="Smallest">
+    <input type="button" id="largest" onclick="getLargest()" value="Largest">
+    <br>
+    <br>
+    <button type="button" id="fade">Click to Fade Results</button><br><br>
+    <textarea id="textarea" rows="2" cols="40" name="result" style="background-color:red;" >
+      </textarea>
+    <br>
+  
+  
+    <input type="reset" value="RESET">
+  </form>
+
+  </div>
+</div>
+
+<div class="col-3">
+</div>
+
+
+
+
+
+</body>
+
+</html>

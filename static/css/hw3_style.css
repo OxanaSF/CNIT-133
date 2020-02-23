@@ -1,0 +1,58 @@
+ body {
+      /* margin-top: 200px; */
+      padding: 0;
+      background-image: url("../images/wood_hw3.jpeg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+h2 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+li {
+ margin-bottom: 10px;
+ list-style-type: none;
+}
+
+input.input {
+  color: orange;
+  background: rgb(212, 231, 231);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+input[type=button] {
+  padding: 15px;
+  width: 260px;
+  border: 0.5px solid;
+  border-radius: 5px;
+  
+}
+
+p {
+  color: white;
+  text-align: center;
+  width: 260px;;
+  background-color: orange;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+
+}
+
+form-inline {
+  color: red;
+}
+
+.btn.btn-outline-success {
+  margin: 5px;
+}

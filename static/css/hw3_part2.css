@@ -1,0 +1,59 @@
+body {
+      /* margin-top: 200px; */
+      padding: 0;
+      background-image: url("../images/wood_hw3.jpeg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+h3 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+
+
+.row {
+      margin-top: 100px;
+    }
+
+
+#middle {
+  background: rgb(212, 231, 231);
+  height: 700px;
+  text-align: center;
+  border: 0.5px solid orange;
+  padding: 60px;
+  margin-bottom: 60px;
+  color: gray;
+}
+
+
+input {
+  color:white;
+  background:orange;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.btn.btn-outline-success {
+  margin: 5px;
+} 
+
+.number {
+  text-align: left;
+  margin: 5px;
+}
+
+#salesPerson {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+body {
+  background-image: url("../images/wood_hw3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#middle {
+  background: rgb(212, 231, 231);
+  height: 550px;
+  text-align: center;
+  border: 0.5px solid orange;
+  padding-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: gray
+}
+
+input {
+  color:white;
+  background: orange;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.btn.btn-outline-success {
+  margin: 5px;
+}
+
+#textarea {
+  text-align: center;
+}
+
+h3 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+h5 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}

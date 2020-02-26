@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Part 1 of Homwork 3 CNIT133">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part1</title>
+
+  <script src="../static/js/hw3_part1.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="../static/css/hw3_part1.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">Home
+        page</button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3.html'; ">Homework 3
+        page
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part2.html'; ">Part 2
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part3.html'; ">Part 3
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part4.html'; ">Part 4
+      </button>
+
+    </form>
+  </nav>
+
+
+  <br>
+  <br>
+  <br>
+
+<h3>Student Grades</h3>
+
+  <div class="row">
+  
+    <div class="col-3">
+    </div>
+  
+    <div class="col-6" id="middle">
+      <form name="myform">
+    
+        <h6>
+          Enter all four numbers then click on the GET RESULT button to get the student's finale average score and the letter grade.
+  
+        </h6>
+        <table>
+          <tr>
+            <td>Homework average:</td>
+            <td><input type="text" id="hwAvg" size="10"></td>
+          </tr>
+          <tr>
+            <td>Mid-term exam score:</td>
+            <td><input type="text" id="midExam" size="10"></td>
+          </tr>
+          <tr>
+            <td>Final exam score:</td>
+            <td><input type="text" id="finalExam" size="10"></td>
+          </tr>
+          <tr>
+            <td>Participation:</td>
+            <td><input type="text" id="participation" size="10"></td>
+          </tr>
+      
+  
+        </table>
+  
+        <br>
+  
+        <input type="button" onclick="countFinalAvgAndLetterGrade()" value="GET RESULT">
+  
+        <br>
+        <br>
+        <textarea rows="5" cols="40" name="result" style="background-color: orange; color: rgb(88, 43, 43)">
+        </textarea>
+        <br>
+  
+  
+        <input type="reset" value="RESET">
+      </form>
+  
+    </div>
+    <div class="col-3">
+    </div>
+  
+  </div>
+
+
+
+</body>
+
+</html>

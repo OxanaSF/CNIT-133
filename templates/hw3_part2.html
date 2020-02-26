@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Part 2 of Homwork 3 CNIT133">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part2</title>
+  
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+  <script src="../static/js/hw3_part2.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="../static/css/hw3_part2.css">
+
+
+<script>
+  $(function () {
+      $(document).tooltip();
+    });
+</script>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">Home
+        page</button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3.html'; ">Homework 3
+        page
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part1.html'; ">Part 1
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part3.html'; ">Part 3
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part4.html'; ">Part 4
+      </button>
+
+    </form>
+  </nav>
+
+
+  <br>
+  <br>
+  <br>
+
+
+  <h3>Salesperson Earnings</h3>
+
+  <div class="row">
+
+    <div class="col-2">
+    </div>
+<br>
+
+
+    <div class="col-8" id="middle">
+      <form name="myform">
+        <h6>Enter the salesperson's name :</h6>
+        <table>
+          <tr>
+            <td>Salesperon:</td>
+            <td><input title="Please make sure that the salesperson's name is spelled correctly" type="text" id="salesPerson" size="20"></td>
+          </tr>
+        </table>
+
+<br>
+<br>
+
+<h6>Input the number of items sold for each item number:</h6>
+        <table>
+          <tr>
+            <td>Item1:</td>
+            <td><input type="text" id="item1" size="10"></td>
+          </tr>
+          <tr>
+            <td>Item2:</td>
+            <td><input type="text" id="item2" size="10"></td>
+          </tr>
+          <tr>
+            <td>Item3:</td>
+            <td><input type="text" id="item3" size="10"></td>
+          </tr>
+          <tr>
+            <td>Item4:</td>
+            <td><input type="text" id="item4" size="10"></td>
+          </tr>
+
+        </table>
+
+        <br>
+
+        <input type="button" onclick="salesEarnings()" value="GET RESULT">
+        
+        <input type="reset" value="RESET">
+        <br>
+        <br>
+        <input type="text" name="result" id="result" size="57">
+        <br>
+        <br>
+        <br>
+        <table>
+          <tr>
+            <td class="number">Item #</td>
+            <td>Price</td>
+            <td>Number Sold</td>
+            <td>Total</td>
+          </tr>
+          <tr>
+            <td class="number">1</td>
+            <td>$239.99</td>
+            <td><input type="text" name="item1_sold" size="20"></td>
+            <td><input type="text" id="item1_total" size="20"></td>
+          </tr>
+          <tr>
+            <td class="number">2</td>
+            <td>$129.75</td>
+            <td><input type="text" name="item2_sold" size="20"></td>
+            <td><input type="text" id="item2_total" size="20"></td>
+          </tr>
+          <tr>
+            <td class="number">3</td>
+            <td>$99.95</td>
+            <td><input type="text" name="item3_sold" size="20"></td>
+            <td><input type="text" id="item3_total" size="20"></td>
+          </tr>
+          <tr>
+            <td class="number">4</td>
+            <td>$350.89</td>
+            <td><input type="text" name="item4_sold" size="20"></td>
+            <td><input type="text" name="item4_total" size="20"></td>
+          </tr>
+
+          <tr>
+            <td class="number">Total Amount Sold:</td>
+            <td></td>
+            <td></td>
+            <td><input type="text" name="total_sold" size="20"></td>
+          </tr>
+
+
+
+          <tr>
+            <td class="number">Total Weekly Earnings:</td>
+            <td></td>
+            <td></td>
+            <td><input type="text" name="total_earnings" size="20"></td>
+          </tr>
+        
+        </table>
+        <br>
+
+
+        
+      </form>
+
+    </div>
+    <div class="col-2">
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>

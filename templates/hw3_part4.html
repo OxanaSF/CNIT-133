@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Part 4 of Homwork 3 CNIT133">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part4</title>
+
+  <script src="../static/js/hw3_part4.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/hw3_part4.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">Home
+        page</button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3.html'; ">Homework 3
+        page
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part1.html'; ">Part 1
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part2.html'; ">Part 2
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part3.html'; ">Part 3
+      </button>
+
+    </form>
+  </nav>
+
+<br>
+<br>
+<br>
+<h3>Check Multiplication Answer</h3>
+
+<div class="row">
+
+  <div class="col-3">
+  </div>
+
+  <div class="col-6" id="middle">
+
+    <form name="myform">
+
+      <p>
+        Click on the START button to begin.
+      </p>
+  
+      <input type="button" id="question" onclick="generateQuestion()" value="START">
+      <br>
+    
+
+      <textarea class="textarea" rows="1" cols="27" name="result"></textarea>
+      
+      <br>
+      <br>
+      <br>
+
+
+  
+      <h6>Your answer goes here:</h6>
+      <input type="text" name="answer" id="answer" size="5">
+  
+
+      <br>
+      <br>
+      <br>
+
+      <p>Click on the SUBMIT <br>to check if your answer is correct</p>
+        <br>
+      <input type="button" onclick="getAnswer()" value="SUBMIT">
+
+      <br>
+      <br>
+      <textarea class="textarea" rows="3" cols="27" name="result2" ></textarea>
+
+
+        <br>
+        <textarea class="textarea" rows="1" cols="27" name="result3"></textarea>
+        
+
+<br>
+        <input type="button" id="yes" onclick="newGame()" value="YES">
+
+        <input type="reset" id="no" value="NO">
+    
+
+    </form>
+
+  </div>
+</div>
+
+<div class="col-3">
+</div>
+
+
+
+</body>
+
+</html>

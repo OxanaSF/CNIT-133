@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Part 3 of Homwork 3 CNIT133">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part3</title>
+
+
+
+  <script src="../static/js/hw3_part3.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/hw3_part3.css">
+
+
+</head>
+
+
+
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">Home
+        page</button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3.html'; ">Homework 3
+        page
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part1.html'; ">Part 1
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part2.html'; ">Part 2
+      </button>
+
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw3_part4.html'; ">Part 4
+      </button>
+
+    </form>
+  </nav>
+<br>
+<br>
+<br>
+<h3>Celsius/Fahrenheit Converter</h3>
+
+  <div class="row">
+
+    <div class="col-3">
+    </div>
+
+    <div class="col-6" id="middle">
+
+      <form name="myform">
+      
+        <h6>
+          Enter a temperature number  then click on the button with the name of the operation you are interseted at.
+          Reset to put new a number and execute new operation.
+        </h6>
+<br>
+<br>
+
+
+        <table>
+          <tr>
+            <td>Your Number:</td>
+            <td><input type="text" id="number" size="10"></td>
+          </tr>
+          
+
+        </table>
+
+        <br>
+  <br>
+  <br>
+        
+        <input type="button" id="celsius_fahrenheit" onclick="celsiusToFahrenheit()" value="Celsius  &rarr; Fahrenheit">
+
+        <input type="button" id="fahrenheit_celsius" onclick="fahrenheitToCelsius()" value="Fahrenheit &rarr; Celsius">
+        
+        <br>
+        <br>
+        
+        <textarea disabled id="textarea" rows="2" cols="40" name="result" style="background-color: orange;">
+      </textarea>
+        <br>
+
+
+        <input type="reset" value="RESET">
+      </form>
+
+    </div>
+  </div>
+
+  <div class="col-3">
+  </div>
+
+
+
+</body>
+
+</html>

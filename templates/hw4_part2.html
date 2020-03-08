@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="Part 2 of Homwork 4 CNIT133">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>part1</title>
 
   <script src="../static/js/hw4_part2.js"></script>
@@ -14,6 +15,22 @@
 
 
   <link rel="stylesheet" type="text/css" href="../static/css/hw4_part2.css">
+
+  <!-- jQuery UI CSS file, jQuery .js file, and jQuery UI .js file -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $("th").css("background-color", "rgb(138, 17, 17)");
+      $("th").css("color", "white");
+      $("tr:even").css("background-color", "rgb(139, 160, 65)");
+      $("tr:odd").css("background-color", "rgb(228, 218, 126)");
+    });
+  </script>
 
 </head>
 
@@ -37,240 +54,59 @@
 
     </form>
   </nav>
+<br>
+<br>
 
-<h3>Calculate Using Looping Statements</h3>
+<h3>Calculate Compound Interest<br> Using Looping Statements</h3>
 
+
+
+<!-- <div class="row" onload="calculateCompoundInterest()"> -->
 <div class="row">
 
-  <div class="col-1">
-  </div>
+<script>
 
-  <div class="col-3" id="middle1">
-    <form name="myform">
+  var x, y, P, r, A;
 
-      <h6>
-        interest rates of 5%
-
-      </h6>
-
-      <br>
-<table>
-  <tr>
-    <th>Year</th>
-    <th>Amount on deposit</th>
-    <th>Interest Rate</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>?</td>
-    <td>?</td>
-  </tr>
-
-
-</table>
-    </form>
-
-
-
-  </div>
-
-  <div class="col-3" id="middle1">
-    <form name="myform">
-    
-      <h6>
-        interest rates of 6%
-    
-      </h6>
-    
-      <br>
-      <table>
-        <tr>
-          <th>Year</th>
-          <th>Amount on deposit</th>
-          <th>Interest Rate</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>8</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>9</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-        <tr>
-          <td>10</td>
-          <td>?</td>
-          <td>?</td>
-        </tr>
-    
-    
-      </table>
-    </form>
-
-  </div>
-
-  <div class="col-3" id="middle2">
-  <form name="myform">
+  x = 1;
+  y = 5;
+  r = 0.04;
+  P = 1000;
   
-    <h6>
-      interest rates of 7%
+  while (x <= 3) {
   
-    </h6>
+    document.write('<div class="col-3">')
+    document.write('<table cellspacing="5" border="2">');
+    document.write("<br>")
+    document.write("<h6>" + "Interest Rates of " + y + "</h6>")
+    document.write('<tr><th>' + "Year" + "</th>");
+    document.write("<th>" + "Amount on deposit" + "</th>");
+    document.write("<th>" + "Interest Rate" + "</th></tr>"); 
+    
   
-    <br>
-    <table>
-      <tr>
-        <th>Year</th>
-        <th>Amount on deposit</th>
-        <th>Interest Rate</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>?</td>
-        <td>?</td>
-      </tr>
-  
-  
-    </table>
-  </form>
+    x += 1;
+    y += 1;
+    r += 0.01;
+    
 
+    
+  for (var n = 1; n <= 10; n++) {
+    A = P * (1 + r) ** n;
+    A = A.toFixed(4);
+  
+    document.write("<tr><td>" + n + "</td>");
+    document.write("<td>" + A + "</td>");
+    document.write("<td>" + r.toFixed(2) + "</td></tr>");
 
-  </div>
-  <div class="col-2">
-  </div>
+  }
+document.write("</table>");
+document.write("</div>");
+
+  }
+
+  </script>
 
 </div>
-
-
-
-
 </body>
 
 </html>

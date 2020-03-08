@@ -28,8 +28,8 @@ h3 {
 }
 
 input {
-  color: white;
-  background: rgb(108, 175, 8);
+  color: rgb(69, 110, 8);
+  background: rgb(218, 218, 218);
   font-size: 15px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -39,3 +39,5 @@ input {
 .btn.btn-outline-success {
   margin: 5px;
 }
+
+

@@ -1,5 +1,4 @@
 body {
-  padding: 0;
   background-image: url("../images/wood_hw4.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -17,8 +16,8 @@ h3 {
 }
 
 #middle1, #middle2, #middle3 {
-  background: rgb(212, 231, 231);
-  height: 500px;
+  background: rgb(231, 222, 212);
+  height: 1500px;
   text-align: center;
   border: 0.5px solid rgb(108, 175, 8);
   padding-top: 60px;
@@ -39,3 +38,22 @@ input {
 .btn.btn-outline-success {
   margin: 5px;
 }
+
+table {
+  border: 1px solid black;
+  
+}
+
+.col-3 {
+  background: rgb(247, 241, 235);
+  height: 500px;
+  text-align: center;
+  border: 0.5px solid rgb(108, 175, 8);
+  padding-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  color: rgb(148, 65, 65);
+}
+
+
+

@@ -15,6 +15,29 @@
 
   <link rel="stylesheet" type="text/css" href="../static/css/hw4_part1.css">
 
+
+  <!-- jQuery UI CSS file, jQuery .js file, and jQuery UI .js file -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+
+<script>
+  $(function () {
+    $("#draggable_left").draggable();
+  });
+
+   $(function () {
+      $("#draggable_right").draggable();
+    });
+
+  $(function () {
+      $("#raggable_h3").draggable();
+    });
+
+    
+</script>
+
 </head>
 
 <body>
@@ -39,9 +62,9 @@
 
 
   <br>
- 
 
-  <h3>Calculate Using Looping Statements</h3>
+
+  <h3 id="raggable_h3">Calculate Using Looping Statements</h3>
   
   <div class="row">
   
@@ -49,20 +72,26 @@
     </div>
   
     <div class="col-4" id="middle1">
-      <form name="myform">
+      <form name="myform1">
   
         <h6>
-          Click on the GET RESULT button to get product and sum of every fourth integer from 5 to 21 inclusive.
+          <div id="draggable_left">
+            <p>  Click on the GET RESULT button to get product and sum of every fourth integer from 5 to 21 inclusive.</p>
+          </div>
+        
   
         </h6>
         
         <br>
   
-        <input type="button" onclick="countFinalAvgAndLetterGrade()" value="GET RESULT">
+        <input type="button" onclick="getProductSum5To21()" value="GET RESULT">
   
         <br>
         <br>
-        <textarea rows="5" cols="40" name="result" style="background-color: rgb(108, 175, 8); color: rgb(88, 43, 43)">
+        
+        <textarea rows="5" cols="40" name="result1" style="background-color: rgb(108, 175, 8); color: white; letter-spacing: 1px; padding: 25px;">
+
+        
           </textarea>
         <br>
   
@@ -74,22 +103,28 @@
       
     </div>
     <div class="col-4" id="middle2">
-      <form name="myform">
+      <form name="myform2">
     
         <h6>
-          Click on the GET RESULT button to get product and sum of every third integer from 3 to 21 inclusive.
-    
+          <div id="draggable_right">
+            <p> Click on the GET RESULT button to get product and sum of every third integer from 3 to 21 inclusive.</p>
+          </div>
+          
         </h6>
     
         <br>
     
-        <input type="button" onclick="countFinalAvgAndLetterGrade()" value="GET RESULT">
+        <input type="button" onclick="getProductSum3To21()" value="GET RESULT">
     
         <br>
         <br>
-        <textarea rows="5" cols="40" name="result" style="background-color: rgb(108, 175, 8); color: rgb(88, 43, 43)">
-              </textarea>
+        <textarea rows="5" cols="40" name="result2" style="background-color: rgb(108, 175, 8); color: white; letter-spacing: 1px; padding: 25px;">
+        
+      
+        </textarea>
         <br>
+
+        
     
     
         <input type="reset" value="RESET">

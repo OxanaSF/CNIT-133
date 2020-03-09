@@ -15,16 +15,6 @@ h3 {
   margin-top: 100px;
 }
 
-#middle1, #middle2, #middle3 {
-  background: rgb(231, 222, 212);
-  height: 1500px;
-  text-align: center;
-  border: 0.5px solid rgb(108, 175, 8);
-  padding-top: 60px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  color: gray;
-}
 
 input {
   color: white;
@@ -52,7 +42,7 @@ table {
   padding-top: 60px;
   margin-bottom: 40px;
   margin-left: 40px;
-  color: rgb(148, 65, 65);
+  color: rgb(119, 31, 31);
 }
 
 

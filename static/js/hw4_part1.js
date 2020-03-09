@@ -12,7 +12,7 @@ for (var number = 5; number <= 21; number += 4) {
 
 }
 
-  document.forms["myform1"].elements["result1"].value = ("The product of every fourth integer from from 5 to 21 inclusive is " + product.toLocaleString() + " \n\nThe sum of every fourth integer from from 5 to 21 inclusive is " + sum.toLocaleString());
+  document.forms["myform1"].elements["result1"].value = ("The product of every fourth integer from 5 to 21 inclusive is " + product.toLocaleString() + " \n\nThe sum of every fourth integer from 5 to 21 inclusive is " + sum.toLocaleString());
 
 }
 

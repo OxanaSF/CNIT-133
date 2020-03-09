@@ -17,8 +17,8 @@ h3 {
 }
 
 #middle {
-  background: rgb(212, 231, 231);
-  height: 500px;
+  background: rgb(247, 241, 235);
+  height: 550px;
   text-align: center;
   border: 0.5px solid rgb(108, 175, 8);
   padding-top: 60px;
@@ -27,9 +27,11 @@ h3 {
   color: gray;
 }
 
+
+
 input, input#item1 {
   color: white;
-  background: rgb(108, 175, 8);
+  background: rgb(139, 160, 65);
   font-size: 15px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -42,5 +44,24 @@ input, input#item1 {
 }
 
 td {
-  text-align: cnter;
+  text-align: center;
+}
+
+#texrarea_square {
+  background-color: rgb(209, 228, 140); 
+  color: rgb(44, 12, 12);
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: monospace;
+  line-height: 0.6;
+}
+
+#texrarea_worning {
+  background-color: rgb(209, 228, 140); 
+  color: rgb(44, 12, 12);
+  height: 55px;
+  width: 400px;
+  text-align: center;
 }

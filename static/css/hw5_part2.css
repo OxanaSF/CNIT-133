@@ -49,10 +49,19 @@ select {
   height: 40px;
   border-radius: 5px;
   text-align: center;
+  background-color: rgb(218, 191, 191);
+  color: rgb(90, 87, 87);
 }
 
 input {
   height: 40px;
   border-radius: 5px;
   text-align: center;
+  background-color: rgb(236, 183, 197);
+  color: rgb(80, 75, 75);
+}
+
+a {
+  color: rgb(233, 112, 144);
+  font-style: italic;
 }

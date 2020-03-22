@@ -6,13 +6,62 @@ body {
 }
 
 h3 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
   text-align: center;
+}
+
+h5 {
+  color: rgb(83, 45, 56);
+}color
+
+h6 {
+  color: rgb(83, 45, 56);
 }
 
 .container {
   margin-top: 20px;
 }
 
-.col-4 {
+.col-3 {
   margin-top: 100px;
+}
+
+
+.btn.btn-outline-success {
+  margin: 5px;
+  
+}
+
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}
+
+select {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(218, 191, 191);
+  color: rgb(90, 87, 87);
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(236, 183, 197);
+  color: rgb(80, 75, 75);
+}
+
+a {
+  color: rgb(233, 112, 144);
+  font-style: italic;
 }

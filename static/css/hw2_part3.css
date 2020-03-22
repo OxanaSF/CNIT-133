@@ -1,18 +1,17 @@
 body {
-  background-image: url("../images/wood_hw2.jpeg");
+  background-color: #f1f0ec;
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 #middle {
-  background: rgb(212, 231, 231);
   height: 550px;
   text-align: center;
-  border: 0.5px solid red;
+  border: 0.5px solid rgb(202, 87, 125);
   padding-top: 60px;
   margin-top: 40px;
-  color: gray
+  color: rgb(109, 35, 74);
 }
 
 
@@ -28,4 +27,13 @@ input {
 
 .btn.btn-outline-success {
   margin: 5px;
+}
+
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
 }

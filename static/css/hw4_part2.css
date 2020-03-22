@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/wood_hw4.jpeg");
+  background-color: #f1f0ec;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -13,6 +13,7 @@ h3 {
 
 .row {
   margin-top: 100px;
+  margin-left: 150px;
 }
 
 
@@ -46,4 +47,11 @@ table {
 }
 
 
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
 
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}

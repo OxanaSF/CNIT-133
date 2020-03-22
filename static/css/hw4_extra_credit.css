@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  background-image: url("../images/wood_hw4.jpeg");
+  background-color: #f1f0ec;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -64,4 +64,14 @@ td {
   height: 55px;
   width: 400px;
   text-align: center;
+}
+
+
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
 }

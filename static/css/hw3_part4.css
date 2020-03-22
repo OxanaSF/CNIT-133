@@ -1,7 +1,6 @@
 
 body {
-  background-image: url("../images/wood_hw3.jpeg");
-  /* background: rgb(236, 228, 228); */
+  background-color: #f1f0ec;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -10,11 +9,11 @@ body {
   background: rgb(212, 231, 231);
   height: 650px;
   text-align: center;
-  border: 0.5px solid orange;
+  border: 0.5px solid gb(202, 87, 125);
   padding-top: 60px;
   margin-top: 40px;
   margin-bottom: 40px;
-  color: gray
+  color: rgb(109, 35, 74)
 }
 
 h3 {
@@ -26,8 +25,8 @@ h3 {
 
 
 input {
-  color:rgb(88, 43, 43);
-  background:orange;
+  color:white;
+  background:rgb(233, 90, 65);
   font-size: 15px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -36,7 +35,16 @@ input {
 
 .textarea {
   text-align: center;
-  background-color: orange;
+  background-color: rgb(233, 90, 65);
   color: rgb(88, 43, 43)
 }
 
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}

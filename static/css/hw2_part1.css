@@ -1,0 +1,14 @@
+.btn.btn-outline-success {
+  margin: 5px;
+  
+}
+
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}

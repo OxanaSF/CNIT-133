@@ -1,4 +1,4 @@
- body {
+body {
       padding: 0;
       background-color: #f1f0ec;
       background-size: cover;
@@ -20,8 +20,8 @@ h2 {
 }
 
 li {
-  margin-bottom: 10px;
-  list-style-type: none;
+ margin-bottom: 10px;
+ list-style-type: none;
 }
 
 input.input {
@@ -34,7 +34,7 @@ input.input {
 
 input[type=button] {
   padding: 15px;
-  width: 310px;
+  width: 410px;
   border: 0.5px solid;
   border-radius: 5px;
   
@@ -43,11 +43,12 @@ input[type=button] {
 p {
   color: rgb(245, 239, 239);
   text-align: center;
-  width: 310px;
+  width: 410px;
   background-color: rgb(126, 91, 102);
   font-size: 15px;
   letter-spacing: 0.5px;
   padding: 20px;
+  
 }
 
 
@@ -66,3 +67,4 @@ p {
 .btn-outline-success:hover {
   background-color:rgb(183, 218, 132);
 }
+

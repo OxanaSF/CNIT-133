@@ -1,9 +1,9 @@
- body {
-      /* margin-top: 200px; */
+body {
       padding: 0;
-      background-image: url("../images/wood_hw4.jpeg");
+      background-color: #f1f0ec;
       background-size: cover;
       background-attachment: fixed;
+  
     }
 
 
@@ -20,15 +20,16 @@ h2 {
 }
 
 li {
- margin-bottom: 10px;
- list-style-type: none;
+  margin-bottom: 10px;
+  list-style-type: none;
 }
 
 input.input {
-  color: rgb(108, 175, 8);
-  background: rgb(212, 231, 231);
+  color:  rgb(202, 87, 125);
+  background: rgb(183, 218, 132);
   font-size: 15px;
   letter-spacing: 0.5px;
+  width: 310px;
 }
 
 input[type=button] {
@@ -40,19 +41,26 @@ input[type=button] {
 }
 
 p {
-  color: white;
+  color: rgb(245, 239, 239);
   text-align: center;
-  width: 310px;;
-  background-color: rgb(108, 175, 8);
+  width: 310px;
+  background-color: rgb(126, 91, 102);
   font-size: 15px;
   letter-spacing: 0.5px;
-
+  padding: 20px;
+  
 }
 
-form-inline {
-  color: red;
-}
+
 
 .btn.btn-outline-success {
-  margin: 5px;
+  margin: 4px;
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+
+}
+
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
 }

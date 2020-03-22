@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Part 2 of Homework 5 CNIT133 class of CCSF made by Oxana Howard"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>part2</title>
+
+    <script src="../static/js/hw5_part2.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/hw5_part2.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw1.html'; "
+        >
+          Home page
+        </button>
+
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw5.html'; "
+        >
+          Homework 5 page
+        </button>
+
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw5_part1.html'; "
+        >
+          Part 1
+        </button>
+
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw5_part3.html'; "
+        >
+          Part 3
+        </button>
+      </form>
+    </nav>
+    <br />
+    <br />
+    <div class="container">
+      <h3>Pulldown Menus</h3>
+
+      <div class="row">
+        <div class="col-2"></div>
+
+        <div class="col-3">
+          <h5>Choose a a link about the movie from the Top 10 Films of the 20th Century</h5>
+        <p>The sourse could be found <a href="https://justrichest.com/the-top-10-films-of-the-20th-century/" target="_blank">here</a></p>
+          <br />
+          <h6>Click on the chosen option</h6>
+          <form>
+            <select name="destList" onchange="goToNewPage(this.form);">
+              <option>Choose below:</option>
+              <option value="https://www.imdb.com/title/tt0082971/"
+                >Raiders of the Lost Ark</option
+              >
+              <option value="https://www.imdb.com/title/tt0087332/"
+                >Ghostbusters</option
+              >
+              <option value="https://www.imdb.com/title/tt0032138/?ref_=fn_al_tt_1"
+                >The Wizard of Oz</option
+              >
+              <option value="https://www.imdb.com/title/tt0088847/?ref_=nv_sr_srsg_0"
+                >The Breakfast Club</option
+              >
+              <option value="https://www.imdb.com/title/tt0054215/?ref_=fn_al_tt_1"
+                >Psycho</option
+              >
+              <option value="https://www.imdb.com/title/tt0059742/?ref_=fn_al_tt_1"
+                >The Sound of Music</option
+              >
+              <option value="https://www.imdb.com/title/tt0063518/?ref_=fn_al_tt_4"
+                >Romeo & Juliet</option
+              >
+              <option value="https://www.imdb.com/title/tt0076759/?ref_=fn_al_tt_1"
+                >Star Wars</option
+              >
+              <option value="https://www.imdb.com/title/tt0031381/?ref_=fn_al_tt_1"
+                >Gone with the Wind</option
+              >
+              <option value="https://www.imdb.com/title/tt0058461/?ref_=fn_al_tt_1"
+                >A Fist Full of Dollars</option
+              >
+            </select>
+          </form>
+        </div>
+
+        <div class="col-2"></div>
+
+        <div class="col-3">
+          <h5>Choose a website from the top ten Most Admired Art Museums</h5>
+          <p>The sourse could be found <a href="https://www.forbes.com/sites/rsmdiscovery/2017/10/30/ranking-the-worlds-most-admired-art-museums-and-what-big-business-can-learn-from-them/#570190463b33" target="_blank">here</a></p>
+
+          <br />
+          <h6>Choose an option and click on Go</h6>
+          <form>
+            <select name="destList">
+              <option value="https://www.louvre.fr/en">The Louvre</option>
+              <option value="https://www.vangoghmuseum.nl/"
+                >Van Gogh Museum</option
+              >
+              <option value="https://www.rijksmuseum.nl/en">Rijksmuseum</option>
+              <option value="https://hermitage.nl/en/">State Hermitage</option>
+              <option value="https://www.britishmuseum.org/"
+                >British Museum</option
+              >
+              <option value="https://www.musee-orsay.fr/">Musée d’Orsay</option>
+              <option
+                value="http://www.museivaticani.va/content/museivaticani/en.html"
+                >Vatican Museums</option
+              >
+              <option value="https://www.museodelprado.es/"
+                >Museo del Prado</option
+              >
+              <option value="https://www.metmuseum.org/">Metropolitan Museum of Art</option>
+            </select>
+
+            <input type="button" value="Go" onclick="goToNewPage(this.form);" />
+          </form>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </body>
+</html>

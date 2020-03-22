@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  background-color: #f1f0ec;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h3 {
+  color: rgb(53, 42, 42);
+  font-size: 32px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+h5 {
+  color: rgb(83, 45, 56);
+}color
+
+h6 {
+  color: rgb(83, 45, 56);
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.col-3 {
+  margin-top: 100px;
+}
+
+
+.btn.btn-outline-success {
+  margin: 5px;
+  
+}
+
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}
+
+select {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}

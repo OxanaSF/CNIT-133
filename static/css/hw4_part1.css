@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  background-image: url("../images/wood_hw4.jpeg");
+  background-color: #f1f0ec;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -26,6 +26,7 @@ h3 {
   margin-left: 40px;
   color: rgb(119, 31, 31);
 }
+
 
 .inputarea {
   color: rgb(69, 110, 8);
@@ -59,3 +60,11 @@ input {
   color: rgb(37, 94, 94);
 }
 
+.btn-outline-success {
+  color: rgb(126, 91, 102);
+  border-color: yellowgreen;
+}
+
+.btn-outline-success:hover {
+  background-color:rgb(183, 218, 132);
+}

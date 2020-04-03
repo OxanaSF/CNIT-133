@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  background-color: #f1f0ec;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  margin: 200px;
+  text-align: center;
+}

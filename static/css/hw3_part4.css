@@ -6,10 +6,10 @@ body {
 }
 
 #middle {
-  background: rgb(212, 231, 231);
+  background: #f1f0ec;
   height: 650px;
   text-align: center;
-  border: 0.5px solid gb(202, 87, 125);
+  border: 0.5px solid rgb(202, 87, 125);
   padding-top: 60px;
   margin-top: 40px;
   margin-bottom: 40px;

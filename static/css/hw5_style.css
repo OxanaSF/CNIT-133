@@ -37,7 +37,6 @@ input[type=button] {
   width: 410px;
   border: 0.5px solid;
   border-radius: 5px;
-  
 }
 
 p {
@@ -48,7 +47,6 @@ p {
   font-size: 15px;
   letter-spacing: 0.5px;
   padding: 20px;
-  
 }
 
 
@@ -68,3 +66,7 @@ p {
   background-color:rgb(183, 218, 132);
 }
 
+div.alert.alert-info {
+  text-align: center;
+  font-size: 28px;
+}

@@ -1,70 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Part 1 of Homework 5 CNIT133 class of CCSF made by Oxana Howard"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>part1</title>
 
-    <script src="../static/js/hw4_part1.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Part 1 of Homework 5 CNIT133 class of CCSF made by Oxana Howard" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>part1</title>
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+  <script src="../static/js/hw5_part1.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../static/css/hw5_part1.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-    
-  </head>
+  <link rel="stylesheet" type="text/css" href="../static/css/hw5_part1.css" />
+</head>
 
-  <body>
-    <nav class="navbar navbar-light bg-light">
-      <form class="form-inline">
-        <button
-          class="btn btn-outline-success"
-          type="button"
-          onclick="window.location.href = 'hw1.html'; "
-        >
-          Home page
-        </button>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">
+        Home page
+      </button>
 
-        <button
-          class="btn btn-outline-success"
-          type="button"
-          onclick="window.location.href = 'hw5.html'; "
-        >
-          Homework 5 page
-        </button>
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw5.html'; ">
+        Homework 5 page
+      </button>
 
-        <button
-          class="btn btn-outline-success"
-          type="button"
-          onclick="window.location.href = 'hw5_part2.html'; "
-        >
-          Part 2
-        </button>
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw5_part2.html'; ">
+        Part 2
+      </button>
 
-        <button
-          class="btn btn-outline-success"
-          type="button"
-          onclick="window.location.href = 'hw5_part3.html'; "
-        >
-          Part 3
-        </button>
-      </form>
-    </nav>
+      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw5_part3.html'; ">
+        Part 3
+      </button>
+    </form>
+  </nav>
 
-    <br/>
-    
+  <br>
 
-    <h3>Task 1</h3>
+  <h2>Form Validation</h2>
 
-    
-  </body>
+
+
+<div class="row">
+
+  <div class="col-3">
+  </div>
+
+  <div class="col-6" id="middle">
+
+    <form name="contact_form" method="POST" action="hw5_part1_ok.html" onSubmit="return validate_form ( );">
+
+
+      
+<h4>Please enter your details below</h4>
+<br>
+
+
+<p>Your Name: <input type="text" name="contact_name"></p>
+<hr>
+
+
+
+<p>Your Gender: 
+        <input class="input" type="radio" name="gender" value="Male"> Male
+&nbsp; <input class="input" type="radio" name="gender" value="Female"> Female
+&nbsp; <input class="input" type="radio" name="gender" value="Female"> Other
+</p>
+<p>If Other, please fill the box bellow:</p>
+<input type="text" name="other_gender" id="other_gender">
+<hr>
+<br>
+
+<p>Your Age:
+
+<select name="age">
+<option value="">Please Select an Option:</option>
+<option value="0-18 years">0-18 years</option>
+<option value="18-30 years">18-30 years</option>
+<option value="30-45 years">30-45 years</option>
+<option value="45-60 years">45-60 years</option>
+<option value="60+ years">60+ years</option>
+</select>
+<hr>
+
+<p>Do you agree to the Terms and Conditions?
+<input class="input" type="checkbox" name="terms" value="Yes"> Yes
+<hr>
+<br>
+
+<p><input id="submit" type="submit" name="send" value="Send Details"></p>
+
+</form>
+
+
+
+  </div>
+</div>
+
+<div class="col-3">
+</div>
+
+
+
+</body>
+
 </html>

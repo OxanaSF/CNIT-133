@@ -1,18 +1,20 @@
 body {
   padding: 0;
-  background-color: #f1f0ec;
+  background-color: #ffffff;
   background-size: cover;
   background-attachment: fixed;
 }
 
 h4 {
-  color: rgb(53, 42, 42);
+  color: #404969;
+  font-weight: lighter;
   letter-spacing: 0.8px;
   text-align: center;
 }
 
 h2 {
-  color: rgb(53, 42, 42);
+  color: #404969;
+  font-weight: lighter;
   letter-spacing: 0.8px;
   text-align: center;
 }
@@ -40,13 +42,14 @@ h6 {
 }
 
 .btn-outline-success {
-  color: rgb(126, 91, 102);
-  border-color: yellowgreen;
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
 }
 
 
 .btn-outline-success:hover {
-  background-color:rgb(183, 218, 132);
+  background-color:#eb9e87;
 }
 
 select {
@@ -54,7 +57,7 @@ select {
   height: 40px;
   border-radius: 5px;
   text-align: center;
-  background-color: rgb(253, 226, 226);
+  background-color: #ffff;
   color: rgb(90, 87, 87);
   outline: none;
 }
@@ -63,7 +66,7 @@ input {
   height: 40px;
   border-radius: 5px;
   text-align: center;
-  background-color: rgb(253, 226, 226);
+  background-color: #ffff;
   color: rgb(80, 75, 75);
   outline: none;
 }
@@ -72,7 +75,7 @@ input {
   height: 30px;
   border-radius: 5px;
   text-align: center;
-  background-color: rgb(253, 226, 226);
+  background-color: #ffff;
   color: rgb(80, 75, 75);
 }
 
@@ -83,8 +86,8 @@ a {
 
 
 #middle {
-  background: #f1f0ec;
-  height: 550px;
+  background: f7f7f7;
+  height: 700px;
   text-align: center;
   padding-top: 60px;
   margin-top: 40px;
@@ -95,8 +98,8 @@ a {
 
 hr {
   width: 50%;
-  background-color: lightgray;
-  /* background-color:rgb(183, 218, 132); */
+  /* background-color: red; */
+ 
 }
 
 #submit {

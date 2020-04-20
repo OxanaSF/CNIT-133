@@ -21,21 +21,21 @@
   <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 
-<script>
-  $(function () {
-    $("#draggable_left").draggable();
-  });
+  <script>
+    $(function () {
+      $("#draggable_left").draggable();
+    });
 
-   $(function () {
+    $(function () {
       $("#draggable_right").draggable();
     });
 
-  $(function () {
+    $(function () {
       $("#raggable_h3").draggable();
     });
 
-    
-</script>
+
+  </script>
 
 </head>
 
@@ -53,7 +53,8 @@
       <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw4_part2.html'; ">Part 2
       </button>
 
-      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw4_extra_credit.html'; ">Extra Credit
+      <button class="btn btn-outline-success" type="button"
+        onclick="window.location.href = 'hw4_extra_credit.html'; ">Extra Credit
       </button>
 
     </form>
@@ -64,80 +65,84 @@
 
 
   <h3 id="raggable_h3">Calculate Using Looping Statements</h3>
-  
+
   <div class="row">
-  
-    <div class="col-1">
+
+    <div class="col-2">
     </div>
-  
+
     <div class="col-4" id="middle1">
       <form name="myform1">
-  
-        
-          <div id="draggable_left">
-            <p>  Click on the GET RESULT button to get product and sum of every fourth integer <br><span id="five_to_21">from 5 to 21 inclusive.</span></p>
-          </div>
-        
-  
-        
-        
+
+
+        <div id="draggable_left">
+          <p> Click on the GET RESULT button to get <br>product and sum of every fourth integer <br><span
+              id="five_to_21">from 5 to 21 inclusive.</span></p>
+        </div>
+
+
+
+
         <br>
-  
+
         <input type="button" onclick="getProductSum5To21()" value="GET RESULT">
-  
+
         <br>
         <br>
 
         <p class="inputarea">
-          <textarea rows="5" cols="40" name="result1"
-            style="background-color: rgb(139, 160, 65); color: white; letter-spacing: 1px; padding: 25px;">
-          
-          
+          <textarea rows="5" cols="40" name="result1">
+
+
           </textarea>
         </p>
-        
-  
-  
+
+
+
         <input type="reset" value="RESET">
       </form>
-  
 
-      
+
+
     </div>
 
-    
+
 
     <div class="col-4" id="middle2">
       <form name="myform2">
-    
-        
-          <div id="draggable_right">
-            <p> Click on the GET RESULT button to get product and sum of every third integer <br><span id="three_to_21">from 3 to 21 inclusive.</span></p>
-          </div>
-          
-        
-    
+
+
+        <div id="draggable_right">
+          <p> Click on the GET RESULT button to get<br> product and sum of every third integer <br><span
+              id="three_to_21">from 3 to 21 inclusive.</span></p>
+        </div>
+
+
+
         <br>
-    
+
         <input type="button" onclick="getProductSum3To21()" value="GET RESULT">
-    
+
         <br>
         <br>
         <p class="inputarea">
-        <textarea rows="5" cols="40" name="result2" style="background-color: rgb(139, 160, 65); color: white; letter-spacing: 1px; padding: 25px;">
-        
-      
+          <textarea rows="5" cols="40" name="result2">
+
+
         </textarea>
         </p>
-      
 
-      
+
+
         <input type="reset" value="RESET">
       </form>
-    
-    
-  
-  </div>
+
+
+
+    </div>
+
+    <div class="col-2">
+    </div>
 
 
 </body>

@@ -1,25 +1,29 @@
 body {
   padding: 0;
-  background-color: #f1f0ec;
+  background-color: #ffffff;
   background-size: cover;
   background-attachment: fixed;
 }
 
 h3 {
-  color: rgb(53, 42, 42);
+  margin-top: 20px;
+  color: #404969;
+  font-weight: lighter;
   font-size: 32px;
   letter-spacing: 0.8px;
   text-align: center;
+  font-weight: lighter;
 }
 
 
 
 h5 {
-  color: rgb(83, 45, 56);
-}color
+  color: #404969;
+}
 
 h6 {
-  color: rgb(83, 45, 56);
+  color: #404969;
+  font-weight: normal;
 }
 
 .container {
@@ -37,13 +41,14 @@ h6 {
 }
 
 .btn-outline-success {
-  color: rgb(126, 91, 102);
-  border-color: yellowgreen;
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
 }
 
 
 .btn-outline-success:hover {
-  background-color:rgb(183, 218, 132);
+  background-color:#eb9e87;
 }
 
 select {
@@ -51,7 +56,7 @@ select {
   height: 40px;
   border-radius: 5px;
   text-align: center;
-  background-color: rgb(218, 191, 191);
+  background-color: #ffff;
   color: rgb(90, 87, 87);
   outline: none; 
 }
@@ -60,7 +65,7 @@ input {
   height: 40px;
   border-radius: 5px;
   text-align: center;
-  background-color: rgb(236, 183, 197);
+  background-color: #ffff;
   color: rgb(80, 75, 75);
   outline: none;
 }

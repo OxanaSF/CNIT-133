@@ -1,15 +1,16 @@
 body {
-  padding: 0;
-  background-color: #f1f0ec;
+  background-color: #ffffff;
   background-size: cover;
   background-attachment: fixed;
 }
 
 h3 {
-  color: rgb(53, 42, 42);
+  color: #404969;
+  font-weight: lighter;
   font-size: 32px;
   letter-spacing: 0.8px;
   text-align: center;
+  font-weight: lighter;
 }
 
 .row {
@@ -17,25 +18,25 @@ h3 {
 }
 
 #middle {
-  background: rgb(247, 241, 235);
   height: 550px;
   text-align: center;
-  border: 0.5px solid rgb(108, 175, 8);
-  padding-top: 60px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  color: gray;
+  margin-bottom: 150px;
+  color: #404969;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 
 
 input, input#item1 {
-  color: white;
-  background: rgb(139, 160, 65);
+  color: #404969;
+  background: #f9f6f7;
   font-size: 15px;
   letter-spacing: 0.5px;
   text-align: center;
   border-radius: 5px;
+  padding: 5px;
 }
 
 
@@ -48,22 +49,24 @@ td {
 }
 
 #texrarea_square {
-  background-color: rgb(209, 228, 140); 
-  color: rgb(44, 12, 12);
+  background-color: #ffffff; 
+  color: #404969;
   height: 200px;
   width: 200px;
   text-align: center;
   padding-top: 30px;
   font-family: monospace;
   line-height: 0.6;
+  border: none;
 }
 
 #texrarea_worning {
-  background-color: rgb(209, 228, 140); 
-  color: rgb(44, 12, 12);
+  background-color: #ffffff; 
+  color: #404969;
   height: 55px;
   width: 400px;
   text-align: center;
+  border: none;
 }
 
 

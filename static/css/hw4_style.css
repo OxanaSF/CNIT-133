@@ -1,6 +1,6 @@
 body {
       padding: 0;
-      background-color: #f1f0ec;
+      background-color: #ffffff;
       background-size: cover;
       background-attachment: fixed;
   
@@ -8,15 +8,19 @@ body {
 
 
 h2 {
-  color: rgb(53, 42, 42);
-  font-size: 32px;
-  letter-spacing: 0.8px;
-  text-align: center;
+    color: #dc552c;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 0.8px;
+    text-align: center;
 }
 
-.row {
-  margin-top: 100px;
-  margin-bottom: 50px;
+.container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
@@ -25,42 +29,61 @@ li {
 }
 
 input.input {
-  color:  rgb(202, 87, 125);
-  background: rgb(183, 218, 132);
+  color:  #404969;
+  background-color: #ffffff;
   font-size: 15px;
   letter-spacing: 0.5px;
   width: 310px;
+}
+
+
+input.input:hover {
+  background-color: rgba(220, 85, 44, .2); 
+  transition: background-color 0.9s ease-out;
 }
 
 input[type=button] {
   padding: 15px;
-  width: 310px;
-  border: 0.5px solid;
+  width: 100%;
+  border-bottom: 0.5px solid;
   border-radius: 5px;
   
 }
 
-p {
-  color: rgb(245, 239, 239);
-  text-align: center;
-  width: 310px;
-  background-color: rgb(126, 91, 102);
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  padding: 20px;
-  
-}
 
+input[type=button]:active,
+input[type=button]:focus {
+    outline-color: rgb(231, 133, 133);
+    /* outline: none !important; */
+    box-shadow: none !important;
+  }
+
+.cell {
+    color: rgb(245, 239, 239);
+    color:  #404969;
+    text-align: center;
+    width: 310px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border: #404969 solid 1px;
+    padding: 0;
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
 
 
 .btn.btn-outline-success {
-  margin: 4px;
-  color: rgb(126, 91, 102);
-  border-color: yellowgreen;
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
 
 }
 
 
 .btn-outline-success:hover {
-  background-color:rgb(183, 218, 132);
+  background-color:#eb9e87;
 }
+
+p {
+    padding: 10px;
+  }

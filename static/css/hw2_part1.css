@@ -1,14 +1,27 @@
+body {
+  text-align: center;
+}
 .btn.btn-outline-success {
   margin: 5px;
   
 }
 
 .btn-outline-success {
-  color: rgb(126, 91, 102);
-  border-color: yellowgreen;
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
 }
 
 
 .btn-outline-success:hover {
-  background-color:rgb(183, 218, 132);
+  background-color:#404969;
+}
+
+#middle {
+  margin-top: 150px;
+  padding-bottom: 50px;
+}
+
+hr {
+  width: 50%;
 }

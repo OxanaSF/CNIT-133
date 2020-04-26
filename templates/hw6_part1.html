@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Part 1 of Homework 6 CNIT133 class of CCSF made by Oxana Howard"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>part1</title>
+
+    <script src="../static/js/hw6_part1.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/hw6_part1.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button 
+          id="navbar-btn0"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw1.html'; "
+        >
+          Home page
+        </button>
+
+        <button
+          id="navbar-btn1"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6.html'; "
+        >
+          Homework 6 page
+        </button>
+
+        <button
+          id="navbar-btn2"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6_part2.html'; "
+        >
+          Part 2
+        </button>
+
+        <button
+          id="navbar-btn3"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6_part3.html'; "
+        >
+          Part 3
+        </button>
+      </form>
+    </nav>
+
+    <h2 class="header-main">Math Functions</h2>
+
+    <form name="myform" class="myform">
+      <h5 class="header">
+        Enter a floating-point number with at least four decimal positions.<br />
+        To check a new number repeat.
+      </h5>
+      <textarea id="error-result"  name="error-result"></textarea>
+      <div class="inputs">
+        <p class="number">Your Number:<br /></p>
+        <input type="text" id="number" />
+        <input
+          type="button"
+          id="get-result"
+          onclick="obtainMathFuncs()"
+          value="RESULT"
+        />
+        <input id="reset" type="reset" value="RESET" />
+      </div>
+      <br />
+      <textarea id="result" rows="20" cols="40" name="result"> </textarea>
+    </form>
+  </body>
+</html>

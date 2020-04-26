@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  background-color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.header-main {
+  margin-top: 2rem;
+}
+
+.myform {
+  display: grid;
+  grid-template-columns: 700px;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .myform {
+    grid-template-columns: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .input-form {
+    grid-template-columns: 400px;
+  }
+}
+
+#result {
+  border: none;
+  text-align: left;
+  font-weight: lighter;
+  color: #404969;
+  color: rgb(110, 175, 12);
+}
+
+#error-result {
+  margin-top: 3rem;
+  border: none;
+  text-align: center;
+  font-weight: lighter;
+  color: red;
+}
+
+h2 {
+  color: #404969;
+  font-weight: lighter;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+h5,
+.number {
+  color: #404969;
+  font-weight: lighter;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+input#get-result:hover {
+  color: #ffffff;
+  background-color: greenyellow;
+}
+
+input#get-result:active,
+input#get-result:focus {
+  color: #ffffff;
+  background-color: deepskyblue;
+  transition: 5s;
+}
+
+input#reset:hover {
+  color: #ffffff;
+  background-color: greenyellow;
+}
+
+.btn.btn-outline-success {
+  margin: 5px;
+}
+
+.btn-outline-success {
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
+}
+
+
+#navbar-btn0:hover,
+#navbar-btn0:active,
+#navbar-btn0:focus,
+#navbar-btn1:hover,
+#navbar-btn1:active,
+#navbar-btn1:focus,
+#navbar-btn2:hover,
+#navbar-btn2:active,
+#navbar-btn2:focus,
+#navbar-btn3:hover,
+#navbar-btn3:active,
+#navbar-btn3:focus {
+  background-color: #eb9e87;
+  border: #eb9e87;
+  box-shadow: none;
+}
+
+select {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffff;
+  color: rgb(90, 87, 87);
+  outline: none;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffff;
+  color: rgb(80, 75, 75);
+  outline: none;
+}

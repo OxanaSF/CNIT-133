@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  background-color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.header {
+  margin-top: 5rem;
+}
+
+.myform {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.enter-text,
+.enter-character {
+  color: #404969;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#character {
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #404969;
+  font-weight: lighter;
+}
+
+h5.sub-header {
+  color: #404969;
+  font-weight: lighter;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+textarea#sentence.input-textarea {
+  border-color: rgb(172, 202, 233);
+  color: #404969;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 2rem;
+}
+
+textarea#result {
+  border: none;
+  text-align: center;
+  font-weight: lighter;
+  color: #2a314b;
+  list-style-type: upper-alpha;
+  padding: 2rem;
+  color: rgb(110, 175, 12);
+}
+
+#error-result {
+  border: none;
+  text-align: center;
+  font-weight: lighter;
+  color: red;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffff;
+  color: rgb(80, 75, 75);
+  outline: none;
+}
+
+input#get-result:hover {
+  color: #ffffff;
+  background-color: greenyellow;
+}
+
+input#get-result:active,
+input#get-result:focus {
+  color: #ffffff;
+  background-color: deepskyblue;
+  transition: 5s;
+}
+
+input#reset:hover {
+  color: #ffffff;
+  background-color: greenyellow;
+}
+
+.btn.btn-outline-success {
+  margin: 5px;
+}
+
+.btn-outline-success {
+  color: #404969;
+  border-color: #404969;
+  font-weight: lighter;
+}
+
+#navbar-btn0:hover,
+#navbar-btn0:active,
+#navbar-btn0:focus,
+#navbar-btn1:hover,
+#navbar-btn1:active,
+#navbar-btn1:focus,
+#navbar-btn2:hover,
+#navbar-btn2:active,
+#navbar-btn2:focus,
+#navbar-btn3:hover,
+#navbar-btn3:active,
+#navbar-btn3:focus {
+  background-color: #eb9e87;
+  border: #eb9e87;
+  box-shadow: none;
+}

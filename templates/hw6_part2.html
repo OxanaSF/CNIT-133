@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Part 2 of Homework 6 CNIT133 class of CCSF made by Oxana Howard"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>part2</title>
+
+    <script src="../static/js/hw6_part2.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/hw6_part2.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button
+          id="navbar-btn0"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw1.html'; "
+        >
+          Home page
+        </button>
+
+        <button
+          id="navbar-btn1"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6.html'; "
+        >
+          Homework 6 page
+        </button>
+
+        <button
+          id="navbar-btn2"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6_part1.html'; "
+        >
+          Part 1
+        </button>
+
+        <button
+          id="navbar-btn3"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw6_part3.html'; "
+        >
+          Part 3
+        </button>
+      </form>
+    </nav>
+
+    <h2 class="header">Count Number of Occurrences a Character in the Text</h2>
+
+    <form name="myform" class="myform">
+      <h5 class="sub-header">
+        Enter several lines of text and a letter,<br />
+        than search to find out how many times the letter appers in the text.
+      </h5>
+
+      <p class="enter-text">Enter several lines of text:</p>
+
+      <textarea
+        id="sentence"
+        class="input-textarea"
+        rows="2"
+        cols="40"
+      ></textarea>
+
+      <p class="enter-character">Enter a character to search for:<br /></p>
+
+      <textarea
+        id="error-result"
+        rows="1"
+        cols="40"
+        name="error-result"
+      ></textarea>
+
+      <div class="inputs">
+        <input id="character" type="text" class="input-character" size="10" />
+        <input
+          type="button"
+          onclick="SearchForChar()"
+          id="get-result"
+          value="SEARCH"
+        />
+        <input id="reset" type="reset" value="RESET" />
+      </div>
+
+      <textarea id="result" rows="2" cols="40" name="result"> </textarea>
+    </form>
+  </body>
+</html>

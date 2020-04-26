@@ -11,7 +11,7 @@ function celsiusToFahrenheit() {
 
   if (Number.isNaN(number)) {
 
-    document.forms["myform"].elements["result"].value = ("You should enter a number!\nTo try again click on RESET");
+    document.forms["myform"].elements["result"].value = ("You should enter a number!");
 
   } else {
     document.forms["myform"].elements["result"].value = ("It is " + fahrenheit + " degree Fahrenheit");
@@ -32,7 +32,7 @@ function fahrenheitToCelsius() {
 
   if (Number.isNaN(number)) {
 
-    document.forms["myform"].elements["result"].value = ("You should enter a number!\nTo try again click on RESET");
+    document.forms["myform"].elements["result"].value = ("You should enter a number!");
 
   } else {
     document.forms["myform"].elements["result"].value = ("It is " + celsius + " degree Celsius");

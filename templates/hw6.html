@@ -1,78 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Homwork 6 for CNIT133 class at CCSF - Objects"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>hw6</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Homwork 6 for CNIT133 class at CCSF - Objects" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>hw6</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../static/css/hw6_style.css" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="../static/css/hw6_style.css" />
-</head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <button
+          id="navbar-btn0"
+          class="btn btn-outline-success"
+          type="button"
+          onclick="window.location.href = 'hw1.html'; "
+        >
+          Home page
+        </button>
+      </form>
+    </nav>
+    <br />
+    <h2>CNIT 133 Homework 6 - Objects</h2>
 
-<body>
-  <nav class="navbar navbar-light bg-light">
-    <form class="form-inline">
-      <button class="btn btn-outline-success" type="button" onclick="window.location.href = 'hw1.html'; ">
-        Home page
-      </button>
-    </form>
-  </nav>
-  <br />
-  <h2>CNIT 133 Homework 6 - Objects</h2>
-
-  <div class="container">
-    <div class="cell">
-      <div>
-        <input class="input" type="button" onclick="window.location.href = 'hw6_part1.html'; " value="Part 1" />
+    <div class="container">
+      <div class="cell">
+        <div>
+          <input
+            class="input"
+            type="button"
+            onclick="window.location.href = 'hw6_part1.html'; "
+            value="Part 1"
+          />
+        </div>
+        <p>
+          The webpage that contains a script that has a function that uses
+          Math.round, Math.sqrt, Math.floor, toFixed() etc. to obtain the
+          following:<br />
+          <span id="cell-1">
+            a) round the floating-point number to the nearest integer <br />
+            b) calculate the square root of the floating-point number and round
+            it to an integer<br />
+            c) round the floating-point number to the nearest tenths position<br />
+            d) round the floating-point number to the nearest hunderdths
+            position<br />
+            e) round the floating-point number to the nearest thousandths
+            position.
+          </span>
+        </p>
       </div>
-      <p>
-        The webpage that contains a script that has a function that uses
-        Math.round, Math.sqrt, Math.floor, toFixed() etc. to obtain the
-        following:<br />
-        <span id="cell-1">
-          a) round the floating-point number to the nearest integer <br />
-          b) calculate the square root of the floating-point number and
-          round it to an integer<br />
-          c) round the floating-point number to the nearest tenths
-          position<br />
-          d) round the floating-point number to the nearest hunderdths
-          position<br />
-          e) round the floating-point number to the nearest thousandths
-          position.
-        </span>
-      </p>
-    </div>
 
-    <div class="cell">
-      <div>
-        <input class="input" type="button" onclick="window.location.href = 'hw6_part2.html'; " value="Part 2" />
+      <div class="cell">
+        <div>
+          <input
+            class="input"
+            type="button"
+            onclick="window.location.href = 'hw6_part2.html'; "
+            value="Part 2"
+          />
+        </div>
+        <p>
+          The webpage that does the following: Input a telephone number as a
+          string in the format (999) 999-9999. The script should use String
+          method split to extract the area code as a token, the first 3 digits
+          of the phone number as a token, and the last 4 digits of the phone
+          number as a token.
+        </p>
       </div>
-      <p>
-        The webpage that does the following: Input a telephone number as a
-        string in the format (999) 999-9999. The script should use String
-        method split to extract the area code as a token, the first 3 digits
-        of the phone number as a token, and the last 4 digits of the phone
-        number as a token.
-      </p>
-    </div>
 
-    <div class="cell">
-      <div>
-        <input class="input" type="button" onclick="window.location.href = 'hw6_part3.html'; " value="Part 3" />
+      <div class="cell">
+        <div>
+          <input
+            class="input"
+            type="button"
+            onclick="window.location.href = 'hw6_part3.html'; "
+            value="Part 3"
+          />
+        </div>
+        <p>
+          The a webpage enables the user to enter a state name (full or just the
+          two characters that represent the state) and have the State Name,
+          State Capital, and population appear in separate input box or
+          textarea.
+        </p>
       </div>
-      <p>
-        The a webpage enables the user to enter a state name (full or just
-        the two characters that represent the state) and have the State
-        Name, State Capital, and population appear in separate input box or
-        textarea.
-      </p>
     </div>
-  </div>
-
-
-</body>
-
+  </body>
 </html>

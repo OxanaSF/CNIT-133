@@ -1,7 +1,7 @@
-function extractSequences() {
-  var phoneNum, areaCode;
+extractSequences = () => {
+  let areaCode, firstThree, lastFour;
 
-  phoneNum = document.getElementById("phone-number").value;
+  const phoneNum = document.getElementById('phoneNumber').value;
 
   if (phoneNum.length < 14) {
     document.forms["myform"].elements["result"].value = "";
@@ -18,11 +18,6 @@ function extractSequences() {
     // inputRegExp = /^(\(d{3}))(\d{3})(-\d{4})$/;
 
     document.forms["myform"].elements["result"].value =
-      "Area code: " +
-      areaCode +
-      "\nFirst Three: " +
-      firstThree +
-      "\nFirst Three: " +
-      lastFour;
+      `Area code: ${areaCode}\nFirst Three: ${firstThree} \nFirst Three: ${lastFour}`;
   }
 }

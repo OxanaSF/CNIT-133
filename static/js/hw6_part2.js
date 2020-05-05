@@ -1,12 +1,12 @@
-function SearchForChar() {
-  var count, sentence, character, charLength, notFoundText, errWindow;
+SearchForChar = () => {
+  let i, count, sentence, character, charLength, notFoundText, errWindow;
 
   count = 0;
 
-  sentence = document.getElementById("sentence").value;
+  sentence = myform.sentence.value;
   sentenceToLower = sentence.toLowerCase();
 
-  character = document.getElementById("character").value;
+  character = myform.character.value;
 
   charResToLower = character.toLowerCase();
   charLength = character.length;
@@ -33,19 +33,15 @@ function SearchForChar() {
     document.forms["myform"].elements["error-result"].value =
       "No digit allowed!";
   } else if (count === 0) {
-    notFoundText = "<title>Info about character " + character + "</title>\n";
+    document.forms["myform"].elements["result"].value = ""
+    notFoundText = `<title>Info about character ${character}</title>\n`;
     notFoundText +=
-      "<body style='color: white; background-color: deepskyblue; font-size: 20px; font-family: Arial, Helvetica, sans-serif; text-align: center; letter-spacing: 1px;'>\n";
-    notFoundText += "<div>\n";
+      `<body style='color: white; background-color: deepskyblue; font-size: 20px; font-family: Arial, Helvetica, sans-serif; text-align: center; letter-spacing: 1px;'>\n`;
+    notFoundText += `<div>\n`;
     notFoundText +=
-      "The letter " +
-      '"' +
-      character +
-      '"' +
-      " <p>is not found in the text string!" +
-      "</p>\n";
-    notFoundText += "</div>\n";
-    notFoundText += "</body>\n";
+      `The letter "${character}"<p>is not found in the text string!</p>\n`;
+    notFoundText += `</div>\n`;
+    notFoundText += `</body>\n`;
 
     errWindow = window.open("about:blank", "hello", "width=300,height=100");
 
@@ -54,7 +50,6 @@ function SearchForChar() {
     errWindow.document.write(notFoundText);
     errWindow.document.close();
   } else {
-    document.forms["myform"].elements["character"].value = "";
     document.forms["myform"].elements["error-result"].value = "";
 
     document.forms["myform"].elements["result"].value =

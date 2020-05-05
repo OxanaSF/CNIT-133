@@ -1,7 +1,7 @@
-function obtainMathFuncs() {
-  var number, n, numToCheck;
+obtainMathFuncs = () => {
+  let n, inputRegExp;
 
-  number = document.getElementById("number").value;
+  const number = myform.number.value;
 
   inputRegExp = /^\d+\.\d{4,}$/;
 
@@ -28,17 +28,6 @@ function obtainMathFuncs() {
     document.forms["myform"].elements["error-result"].value = "";
 
     document.forms["myform"].elements["result"].value =
-      "The original floating-point number: " +
-      n +
-      "\nThe nearest integer: " +
-      nearestInteger +
-      "\nThe square root of the number then rounded to an integer: " +
-      squareRoot +
-      "\nThe number rounded to the nearest tenth: " +
-      nearestTenths +
-      "\nThe number rounded to the nearest hundredth: " +
-      nearestHunderdths +
-      "\nThe number rounded to the nearest thousandth: " +
-      nearestThousandths;
+      `The original floating-point number: ${n} \nThe nearest integer: ${nearestInteger}\nThe square root of the number then rounded to an integer: ${squareRoot}\nThe number rounded to the nearest tenth: ${nearestTenths}\nThe number rounded to the nearest hundredth: ${nearestHunderdths}\nThe number rounded to the nearest thousandth: ${nearestThousandths}`;
   }
 }
